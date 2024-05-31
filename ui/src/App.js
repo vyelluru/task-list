@@ -1,10 +1,10 @@
 import { AddTaskForm } from "./components/AddTaskForm";
 import { ThemeProvider, createTheme } from '@mui/material/styles';
-import CssBaseline from '@mui/material/CssBaseline';
-import { Task } from "./components/Task"
-import axios from "axios";
 import React, { useState, useEffect } from "react";
 import { API_URL } from "./utils";
+import { Task } from "./components/Task"
+import CssBaseline from '@mui/material/CssBaseline';
+import axios from "axios";
 
 const darkTheme = createTheme({
   palette: {
