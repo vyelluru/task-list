@@ -1,0 +1,13 @@
+{
+  "name": "api",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index",
+    "dev": "DEVELOPMENT=true nodemon index"
+  },
+  "type": "module",
+  "author": "",
+  "license": "ISC"
+}
