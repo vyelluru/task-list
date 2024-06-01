@@ -26,7 +26,7 @@ export default function App() {
 
   useEffect(() => {
     fetchTasks(); } ,
-    [third]
+    []
   )
   
   return (
